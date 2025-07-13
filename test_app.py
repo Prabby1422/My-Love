@@ -1,8 +1,8 @@
 import requests
 import streamlit as st
-from streamlit _lottie import st_lottie
+from streamlit_lottie import st_lottie
 
-#for more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
+#Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="My Webpage", layout="wide")
 
 def load_lottieurl(url):
@@ -12,7 +12,7 @@ def load_lottieurl(url):
         return r.json()
 
 # ---- LOAD ASSET ----
-lottie_coding = load_lottieurl"https://lottiefiles.com/free-animation/heart-confetti-bbVxVhWsmG"
+lottie_coding = load_lottieurl("https://lottiefiles.com/free-animation/heart-confetti-bbVxVhWsmG")
 
 # ---- HEADER SECTION ----
 st.subheader("Hi My love :wave:, I'm your little baby Prabby :kiss:")
